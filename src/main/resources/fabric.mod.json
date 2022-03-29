@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "glazedcurd",
+  "version": "${version}",
+  "name": "Glazedcurd",
+  "description": "Try a tasty glazed curd bar!",
+  "authors": [
+    "obviouslymilk"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/glazedcurd/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.obvmilk.glazedcurd.client.GlazedcurdClient"
+    ],
+    "main": [
+      "net.obvmilk.glazedcurd.Glazedcurd"
+    ]
+  },
+  "mixins": [
+    "glazedcurd.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
